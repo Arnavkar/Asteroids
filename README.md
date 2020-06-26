@@ -1,3 +1,3 @@
 # Asteroids
 
-# this file
+this file
