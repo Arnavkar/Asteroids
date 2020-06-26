@@ -148,9 +148,11 @@ void keyPressed(){ // ALL MOVEMENT BOOLEANS ARE SET USING KEY PRESSED AND KEY RE
    
   
   if(key == '1'){ // sets the keys used to start one player or two player modes
+    setup();
     startScreen=false;
     onePlayer=true;
   }else if (key =='2'){
+    setup();
     startScreen=false;
     twoPlayer=true;
   }
